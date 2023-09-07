@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Enes's Dice Rolling Game</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1>WELCOME TO THE GAME FOR AGES</h1>
+      <h3 id="sonuc">Click Roll to Decide Who will be the Winner</h3>
+      <div class="player-container">
+        <div class="playerOne">
+          <p>Player ONE</p>
+          <input id="pOne" class="form-control" type="text" />
+          <button id="pOneBtn" class="btn btn-danger">Submit</button>
+        </div>
+        <div class="playerTwo">
+          <p>Player TWO</p>
+          <input id="pTwo" class="form-control" type="text" />
+          <button id="pTwoBtn" class="btn btn-danger">Submit</button>
+        </div>
+      </div>
+
+      <button id="clickToRoll" class="btn btn-danger">Click To Roll</button>
+
+      <div class="playArea">
+        <div class="playerOneImg">
+          <h3 id="playerOnetitle">Player One</h3>
+          <img id="playerOneImg" src="./img/ZarBos.png" alt="" />
+        </div>
+        <div class="playerTwoImg">
+          <h3 id="playerTwotitle">Player Two</h3>
+          <img id="playerTwoImg" src="./img/ZarBos.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
