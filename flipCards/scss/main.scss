@@ -1,0 +1,16 @@
+$bgColor: yellow;
+$textColor: rgb(180, 180, 180);
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $bgColor;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $textColor;
+}
